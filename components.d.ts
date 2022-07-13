@@ -21,6 +21,8 @@ declare module '@vue/runtime-core' {
     TaskCard: typeof import('./src/components/TaskCard.vue')['default']
     TheAlerts: typeof import('./src/components/TheAlerts.vue')['default']
     TheDrawer: typeof import('./src/components/TheDrawer.vue')['default']
+    TheNavbar: typeof import('./src/components/TheNavbar.vue')['default']
+    TheNavBar: typeof import('./src/components/TheNavBar.vue')['default']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
