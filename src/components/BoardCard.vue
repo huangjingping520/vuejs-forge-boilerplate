@@ -12,7 +12,7 @@ const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16)
 
 <template>
   <router-link :to="`/boards/${board.id}`" class="block w-96">
-    <KCard class="m-5">
+    <KCard>
       <AppImage v-if="board.image" :src="board.image?.downloadUrl" width="384" class="aspect-video w-full" />
       <div v-else class="aspect-video w-full" :style="{ backgroundColor: randomColor }"></div>
       <KCardTitle class="p-2">
